@@ -1,0 +1,388 @@
+
+body{
+    margin: 0px;
+    font-family: Tinos ;
+}
+.container{
+    margin: 0px 166px;
+    }
+.header{
+    background-image: url(img/bg_img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.flex,
+.menu_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h_line{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 14px;
+    justify-content: space-around;
+    font-family: Open Sans;
+}
+.h_line button{
+    margin-left: 20px;
+}
+.logo{
+    margin-right: 200px;
+}
+.nav  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 25px;
+    transition: color 0.2s linear;
+}
+.nav a:hover{
+    color: rgb(192, 8, 8);
+}
+.cart{
+    margin: 25% 25px;
+}
+.c_line{
+    border-right: 1.3px solid #fff;
+    height: 50px;
+}
+.phone_text{
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff; 
+}
+.number > a{
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 700;
+    margin-left: 10px;
+}
+.btn{
+    background-color: #ff7400;
+    border-color: #ff7400;
+    padding: 14px 18px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.h_midle{
+    text-align: center; 
+    margin-left: 0px;
+    width: 556px;
+}
+.welcome{
+    color: #ff7400;
+    font-weight: 400;
+}
+.welcome p{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.welcome div{
+    font-size: 80px;
+}
+.c_white{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 200;
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.c_white hr{
+    width: 61px;
+    margin: 0px 8px;
+}
+.btn_v{
+    background-color: #ff7400;
+    border-color: #ff7400;
+    padding: 14px 18px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-bottom: 100px;
+    margin-top: -72px;
+    font-size: 21px;
+}
+.card{
+    background-color: #fff; 
+    box-shadow: 
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.8em 0.8em 1em rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    text-align: center;
+}
+.c_brown{
+    color: #BC9060; 
+}
+.grey{
+    color: hsl(0, 1%, 39%);
+}
+.history{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.history p{
+    grid-column-start: auto;
+}
+.history_text{
+   padding: 0px 50px;
+}
+.all_food{
+    display: flex;
+    justify-content: center;
+    margin: 54px 0px;
+}
+.count{
+    margin-right: 20px;
+}
+.size_36{
+    font-size: 38px;
+    text-align: center;
+}
+.delicois{
+    background-image:  
+    linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
+    url('img/delicious.png'); 
+    margin-bottom: 100px;
+    margin: 59px 0px;
+}
+.btn_table{
+    background-color: #ff7400;
+    border-color: #ff7400;
+    padding: 14px 18px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.flyer{
+    margin: 59px 0px;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.size_52{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.white{
+    color: #fff;
+    font-size: 24px;
+}
+.menu{
+    margin: 0px;
+    padding: 40px 0px;
+}
+.menu img{
+    padding: 0px 20px 25px 25px;
+
+}
+.dotted{
+    border-bottom: 3px dotted;
+    width: 300px;
+    margin: 0px 5px;
+}
+.bg_menu{
+    background-image: url(img/bg_menu.png);
+    height: 160vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px
+}
+.top_30{
+    padding-top: 30px;
+}
+.m_burg_f{
+    display: flex;
+    justify-content: center;
+}
+.m_burg{
+    background-color: #fff; 
+    box-shadow: 
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.8em 0.8em 1em rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    margin-right: 25px;
+    text-align: center;
+    }
+.burger_img{    
+    margin: 55px 20px 30px 30px;
+    position: relative;
+}
+.font_s_23{
+    font-size: 24px;
+}
+.btn_humb{
+    background-color: #D67E34;
+    border-color: #ece6e0;
+    padding: 15px 55px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cost{
+    position: absolute;
+    background-color: #D67E34;
+    font-size: 26px;
+    color: #fff;
+    padding: 25px 23px;
+    border-radius: 100%;
+    outline: 8px solid #fff;
+    margin: -115px 0px 0px 162px;    
+}
+.all_menu{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px 136px 0px;
+}
+.feedback{
+    background-color: #E5E5E5;
+    text-align: center;
+    font-size: Open Sans;
+    padding: 100px 300px;
+}
+.flex_center{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.point{
+    outline: 2px solid #C4C4C4;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: 1.4px;
+}
+.point_org{
+    outline: 2px solid #FF7400;
+    border-radius: 100%;
+    padding: 1.6px;
+}
+.gallery_left{
+    margin-right: 30px;
+}
+.gallery_two,
+.gallery_one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pad_100{
+    margin: 100px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+.cookers a{
+    margin-right: 30px;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0px;
+    margin-top: 60px;
+}
+.gallery{
+        display: flex;
+        align-items: center;
+}
+.group_menu{
+    display: none;
+}
+
+@media (max-width: 1300px){
+     .header{
+        height: 52vh;
+    }
+    .c_line,
+    .phone,
+    .btn{
+        display: none;
+    }
+    .group_menu{
+        display: block;
+    }
+    .h_midle{
+        margin: auto
+    }
+}
+
+@media (max-width: 1100px){
+    .flex{
+        display: block;
+        text-align: center;
+    }
+    .history,
+    .m_burg_f,
+    .gallery_left,
+    .gallery_one{
+        display: inline;
+        text-align: center;
+    }
+    .m_burg,
+    .gallery_left,
+    .gallery_two{
+        margin: 30px;
+    }
+    .nav{
+        display: none;
+    }
+    .welcome    {
+        text-align: center;
+    }
+ }
+
+@media (max-width: 768px){
+    .container,
+    .h_midle,
+    .history_img{
+        margin: auto;
+    }
+    .cards,
+    .flex,
+    .gallery_two,
+    .between{
+        display: block;
+        margin: 20px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .all_menu{
+        padding: 50px 0px 46px 0px;
+    }
+    .pad_100{
+        margin: 30px 0px 0px 0px;
+    }
+    .feedback,
+    .delicois{
+        padding: 50px 20px;
+    }
+    .gallery_one{
+        display: none;
+    }
+    .gallery_two img,
+    .cookers img{
+        padding-bottom: 20px;
+    }
+    .bt_margin{
+        text-align: center;                  
+        }
+}
+
