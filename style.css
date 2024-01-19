@@ -389,10 +389,8 @@ footer{
 
 @media (max-width: 511px){
     .history_img,
-    .menu_img{
-        display: none;
-    }
-    .h_midle{
+    .menu_img,
+    .burger3{
         display: none;
     }
     .welcome p{
