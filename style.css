@@ -393,7 +393,7 @@ footer{
         display: none;
     }
     .h_midle{
-        width: auto;
+        display: none;
     }
     .welcome p{
         font-size: 30px;
