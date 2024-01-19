@@ -307,7 +307,7 @@ footer{
 }
 
 @media (max-width: 1300px){
-     .header{
+    .header{
         height: 52vh;
     }
     .c_line,
@@ -386,3 +386,15 @@ footer{
         }
 }
 
+@media (max-width: 511px){
+    .h_midle{
+        width: auto;
+    }
+    .welcome p{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .welcome div{
+        font-size: 50px;
+    }
+}
